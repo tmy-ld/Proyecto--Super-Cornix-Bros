@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBCEB2 ;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding: 1% 4%;
+    margin:0px auto;
+    background-color: #CCAE84;
+    background-size: cover;
+}
+main{
+    padding: 1% 3%;
+    margin:15px auto;
+}
+
+footer{
+    padding: 15px 30px;
+    margin:0px auto;
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    background-color: #CCAE84 ;
+    background-size:cover;
+}
+
+.titulo{
+    color: #56482F;
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3vw;
+    display: inline;
+    padding-right: 10%;
+    margin-right: 16%;
+}
+
+.frase_final{
+    color: #552917 ;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    margin:15px 0px;
+}
+
+.frase{
+    color: #877466;
+    background-color: #EBCEB2;
+    border-radius: 12px;
+    padding: 4px 50px;
+    background-size:cover;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 420;
+    font-style: normal;
+    font-size: 2vw;
+    display: inline;
+    position: relative;
+    margin: 0px 3%;
+}
+
+.menu{
+    width: 4vw;
+    margin-right: 4%;
+    margin-left: 5%;
+    background: none;
+}
+
+.navbar{
+    display: none;
+    flex-direction: column;
+    background: #877466;
+    padding: 5%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.navbar .opciones{
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    border-bottom: 1px solid #552917;
+}
+
+.header_text{
+    display: flex;
+    align-items: center;
+    gap: 3.3vw;
+}
+
+.seccion1{
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+    gap: 10%;
+}
+
+.textsc1{
+    flex: 1;
+}
+
+.imgsc1{
+    flex: 1;
+}
+
+.preg1{
+    margin: 5%px 0px;
+}
+
+.preg2{
+    margin: 3% 0px;
+}
+.seccion2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preg3{
+    margin: 20px 0px;
+}
+
+.preg4{
+    margin: 35px 0px;
+}
+
+.subtitulo{
+    color: #552917 ;
+    font-family: "Margarine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+}
+
+.inf_col{
+    color: #583F2E;
+    font-family: "Margarine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vw;
+}
+
+.foto1{
+    border-radius: 125px;
+    height: 75%;
+    min-height: 150px;
+    width: 75%;
+    min-width: 150px;
+    
+}
+
+.foto2{
+    border-radius: 160px;
+    height: 15%;
+    min-height: 150px;
+    width: 25%;
+    min-width: 150px;
+}
+
+.desc{
+    color: #5E3B25;
+    font-family: "Manuale", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 1.3vw;
+    
+}
+
+.info3{
+    margin: 0px 80px;
+    text-align: center;
+}
+
+.sub_tit3{
+    text-align: center;
+}
+
+.info4{
+    text-align: center;
+}
+
+.sub_tit4{
+    text-align: center;
+}
+
+.iconos{
+    height: 40px;
+    width: 40px;
+}
+
+.img_alt{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.iconos_gen{
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    background-color: #B89C75;
+    border-radius: 17px;
+    padding: 2% 3%;
+
+}
+
+.iconos_3{
+    position: relative;
+    width: 3vw;
+    height: 2.5vw;
+}
+
+.iconos_3 .iconosi,
+.iconos_3 .img_alti{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.iconos_3 .img_alti{
+    opacity: 0;
+}
+
+.iconos_3:hover .iconosi{
+    opacity:0;
+}
+
+.iconos_3:hover .img_alti{
+    opacity: 1;
+}
+
+.iconos_4{
+    position: relative;
+    width: 3vw;
+    height: 2.5vw;
+}
+
+.iconos_4 .iconosii,
+.iconos_4 .img_altii{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.iconos_4 .img_altii{
+    opacity: 0;
+}
+
+.iconos_4:hover .iconosii{
+    opacity:0;
+}
+
+.iconos_4:hover .img_altii{
+    opacity: 1;
+}
+
+.iconos_3:active .img_alti{
+    width: 3vw;
+    height: 3vw;
+}
+
+.iconos_4:active .img_altii{
+    width: 3vw;
+    height: 3vw;
+}
+
+@media (max-width: 730px) {
+    .seccion1{
+        display: block;
+    }
+
+    .foto1{
+        border-radius: 75px;
+        height: 45%;
+        min-height: 150px;
+        width: 45%;
+        min-width: 150px;
+        margin-left: 25%;
+    }
+
+    .frase {
+        color: #877466;
+        background-color: #EBCEB2;
+        border-radius: 12px;
+        padding: 2px 5%;
+        background-size: cover;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 420;
+        font-style: normal;
+        font-size: 65%;
+        display: inline;
+        position: relative;
+        margin: 0px 1%;
+    }
+
+    
+    .titulo {
+        color: #56482F;
+        font-family: "Kavoon", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 90%;
+        display: inline;
+        padding-right: 10%;
+    }
+
+    .menu{
+        width: 8vw;
+    }
+
+    .frase_final{
+        color: #552917 ;
+        font-family: "Modak", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 300%;
+        margin:15px 0px;
+    }
+
+    .inf_col{
+        color: #583F2E;
+        font-family: "Margarine", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 75%;
+    }
+
+    .subtitulo{
+        color: #552917 ;
+        font-family: "Margarine", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 185%;
+    }
+}
+@media (max-width: 450px) {
+    .iconos_gen {
+        display: block;
+        align-items: center;
+        background-color: #B89C75;
+        background-size: cover;
+        border-radius: 17px;
+        padding: 4% 4%;
+    }
+
+    .iconos_3 {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        margin: 50% 0px;
+    }
+
+    .iconos_4 {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        margin: 50% 0px;
+    }
+
+    .desc{
+        color: #5E3B25;
+        font-family: "Manuale", serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        font-size: 85%;
+    }   
+}
